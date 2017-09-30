@@ -38,7 +38,9 @@ Feel free to modify the code for your testing purposes.
 
 ```bash
 git clone https://github.com/sabues/appliance-testEndpoints.git
-cd ./appliance-testingEndpoints
+cd ./appliance-testEndpoints
 npm install
 node index.js
+
+curl http://localhost:9110/        #should return 'appliance-testEndoints is working'
 ```

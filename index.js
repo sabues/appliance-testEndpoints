@@ -65,6 +65,7 @@ function replicasetwork(){
 
 router.all('/', function (req, res, next) {  
   console.log('Someone made a request!');
+  res.send('appliance-testEndoints is working');
   next();
 });
 
